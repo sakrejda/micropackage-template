@@ -1,0 +1,16 @@
+Package: <PACKAGE-NAME>
+Type: Package
+Title: <SINGLE-SENTENCE-PACKAGE-DESCRIPTION>
+Version: 0.0.1
+Date: 2018-08-22
+Authors@R: person("<GIVEN-NAME>", "<FAMILY-NAME>", email = "<USER@DOMAIN>", role = c("cre", "aut"))
+Description: <MULTI-SENTENCE-PACKAGE-DESCRIPTION> 
+License: GPL-3
+Depends: 
+  checkmate
+Imports:
+    magrittr,
+    dplyr
+RoxygenNote: 6.0.1
+Suggests: 
+    testthat
